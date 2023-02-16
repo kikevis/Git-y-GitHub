@@ -23,6 +23,6 @@ git remote -v
 git remote set-url origin url-ssh-repositorio
 git remote -v
 
-git pull
+git pull origin main
 yes
 git pull origin main

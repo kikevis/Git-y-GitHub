@@ -20,7 +20,8 @@ Agregar clave publica en GitHub
 
 git remote -v
 
-git remote set-url origin url-ssh-repositorio
+git remote set-url origin url-ssh-repositorio //github
+git remote add url-ssh-repositorio //gitlab
 git remote -v
 
 git pull origin main

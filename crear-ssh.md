@@ -1,8 +1,10 @@
 <!-- Windows -->
 ssh-keygen -t rsa -b 4096 -C "tu@email.com"
+ssh-keygen -t rsa -b 4096 -C "villasanchezg22@gmail.com"
+enter
 
 eval $(ssh-agent -s)
-eval "$(ssh-agent -s)"
+eval "$(ssh-agent -s)" //mac
 (Agent pid #)
 
 ssh-add ruta donde esta la llave privada

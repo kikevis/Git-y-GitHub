@@ -1,7 +1,3 @@
 Geovanny E. Villa Sánchez, ese es mi nombre.
-
 Estoy estudiando Git y GitHub.
-
-f
-
-porque puedo
+Hoy es 24 de Febrero del 2023.

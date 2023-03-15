@@ -17,6 +17,15 @@ IdentityFile ruta-donde-guardaste-tu-llave-privada
 
 ssh-add -K ruta-donde-guardaste-tu-llave-privada
 
+<!-- Ubuntu -->
+mkdir $HOME/.ssh
+ssh-keygen -t rsa -b 4096 -C tu@correo.com
+eval "$(ssh-agent -s)"
+eval `ssh-agent -s`
+ssh-add ~/.ssh/id_rsa
+agregar id_rsa.pub a GitHub
+ssh -T git@github.com
+
 <!-- Repositorio -->
 Agregar clave publica en GitHub
 

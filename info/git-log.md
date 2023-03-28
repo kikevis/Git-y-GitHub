@@ -12,15 +12,15 @@ git log -p- Explica el número de líneas que se cambiaron y te muestra que se c
 
 git shortlog - Indica que commits ha realizado un usuario, mostrando el usuario y el titulo de sus commits.
 
-git log --graph --oneline --decorate y
+git log --graph --oneline --decorate
 
 git log --pretty=format:"%cn hizo un commit %h el dia %cd" - Muestra mensajes personalizados de los commits.
 
 git log -3 - Limitamos el número de commits.
 
-git log --after=“2018-1-2” ,
+git log --after=“2018-1-2”
 
-git log --after=“today” y
+git log --after=“today”
 
 git log --after=“2018-1-2” --before=“today” - Commits para localizar por fechas.
 

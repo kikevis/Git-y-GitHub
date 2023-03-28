@@ -1,4 +1,4 @@
-<!-- Tags -->
+## Tags
 git log --all --graph --decorate --oneline //historia del proyecto
 
 git tag -a v0.1 -m "Primer tag" # //agregar tag al commmit
@@ -11,5 +11,5 @@ git tag -d nombre-tag //borrar tag local
 
 git push origin :refs/tags/nombre-tag //borrar tag de github
 
-<!-- alias en git -->
+## Alias
 alias arbolito = "git log --all --graph --decorate --oneline"

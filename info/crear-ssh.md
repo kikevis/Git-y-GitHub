@@ -1,4 +1,4 @@
-<!-- Windows -->
+## Windows
 ssh-keygen -t rsa -b 4096 -C "tu@email.com"
 ssh-keygen -t rsa -b 4096 -C "villasanchezg22@gmail.com"
 enter
@@ -10,14 +10,14 @@ eval "$(ssh-agent -s)" //mac
 ssh-add ruta donde esta la llave privada
 ssh-add ~/.ssh/id_rsa
 
-<!-- Linux -->
+## Linux
 AddKeysToAgent yes
 UseKeychain yes
 IdentityFile ruta-donde-guardaste-tu-llave-privada
 
 ssh-add -K ruta-donde-guardaste-tu-llave-privada
 
-<!-- Ubuntu -->
+## Ubuntu
 mkdir $HOME/.ssh
 ssh-keygen -t rsa -b 4096 -C tu@correo.com
 eval "$(ssh-agent -s)"
@@ -26,7 +26,7 @@ ssh-add ~/.ssh/id_rsa
 agregar id_rsa.pub a GitHub
 ssh -T git@github.com
 
-<!-- Repositorio -->
+## Repositorio
 Agregar clave publica en GitHub
 
 git remote -v

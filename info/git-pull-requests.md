@@ -1,5 +1,4 @@
 ## Pull requests
-
 git pull origin main
 
 git branch fix-typo //rama para arreglar error

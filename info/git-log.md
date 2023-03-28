@@ -1,7 +1,4 @@
 ## Log
-
-Algunos comandos que pueden ayudar cuando colaboren con proyectos muy grandes de github:
-
 git log --oneline - Te muestra el id commit y el título del commit.
 
 git log --decorate- Te muestra donde se encuentra el head point en el log.

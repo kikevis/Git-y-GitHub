@@ -1,5 +1,4 @@
 ## Stash
-
 git stash : Guarda el trabajo actual de manera temporal. (Archivos modificados o eliminados)
 
 git stash -u : Crea un stash con todos los archivos. (Añadiendo los creados Untracked)
